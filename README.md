@@ -48,12 +48,24 @@ Somos a StoCam, uma solução tecnológica voltada à gestão automatizada de es
 
 ## Exemplo de entrada (`resultado_predicao.json`)
 ```json
-{
-  "predictions": [
-    {"class": "garrafa"},
-    {"class": "garrafa"},
-    {"class": "lata"}
-  ]
+{"predictions": [
+    {
+      "x": 498,
+      "y": 608,
+      "width": 84,
+      "height": 16,
+      "confidence": 0.9970365166664124,
+      "class": "ampola",
+      "class_id": 0,
+      "detection_id": "05a281f9-2e7a-4d76-b449-3ffa1d8b825c",
+      "image_path": "gaveta 2.jpg",
+      "prediction_type": "ObjectDetectionModel"
+    }
+  ],
+  "image": {
+  "width": "1280",
+  "height": "720"
+  }
 }
 ```
 <img src="Diagrama.png">
