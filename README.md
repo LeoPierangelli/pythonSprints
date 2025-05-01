@@ -49,3 +49,4 @@ Este projeto é um sistema simples de gerenciamento de estoque que integra dados
   ]
 }
 
+<img src="Diagrama.png">
