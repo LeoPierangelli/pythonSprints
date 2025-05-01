@@ -48,4 +48,4 @@ Este projeto é um sistema simples de gerenciamento de estoque que integra dados
     {"class": "lata"}
   ]
 }
-v
+
