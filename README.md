@@ -1,6 +1,13 @@
 # 📦 Sistema de Estoque com Visão Computacional + Entrada Manual
 
-Este projeto é um sistema simples de gerenciamento de estoque que integra dados preditivos oriundos de visão computacional (via JSON) com funcionalidades manuais para adicionar, atualizar, remover e visualizar itens no terminal.
+Somos a StoCam, uma solução tecnológica voltada à gestão automatizada de estoques hospitalares, baseada na integração entre visão computacional, inteligência artificial e infraestrutura de monitoramento contínuo. Nosso objetivo é otimizar o controle de insumos hospitalares, reduzindo falhas humanas, desperdícios e ineficiências logísticas que impactam diretamente a qualidade do atendimento à saúde. No código apresentado, desenvolvemos o início da nossa leitura de imagens através de inteligência artificial, unido com conhecimentos em tratamento de dicionários para possibilidade de manutenção manual do estoque do hospital parceiro.
+
+
+O estoque é criado no sistema através de uma requisição de leitura de imagem na API do ROBOFLOW
+Recebemos um dicionário com todos os itens identificados na imagem
+Transformamos esse arquivo em um banco de dados contínuo que irá atualizar o sistema de ERP de estoque do Hospital
+Disponibilizamos a opção de modificação do estoque. Caso o funcionário deseje alterar algum conteúdo, pode escolher adicionar ou remover itens presentes no banco de dados.
+Visualiza os itens presentes no estoque.
 
 ---
 
@@ -14,7 +21,7 @@ Este projeto é um sistema simples de gerenciamento de estoque que integra dados
 
 ---
 
-## 🔍 Funcionalidades
+## 🔍 Funcionalidades do código
 
 - Leitura de um arquivo `resultado_predicao.json` com as previsões de classes de objetos identificados por um modelo de visão computacional.
 - Contabilização automática da quantidade de cada classe detectada.
