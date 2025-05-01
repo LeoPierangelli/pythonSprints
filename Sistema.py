@@ -1,12 +1,33 @@
+import json
+
+##Estoque Visao_Computacional
+with open('resultado_predicao.json', 'r') as f:
+    data = json.load(f)
+
+contagem = {}
+
+for item in data['predictions']:
+    classe = item['class']
+    if classe in contagem:
+        contagem[classe] += 1
+    else:
+        contagem[classe] = 1
+
 
 
 estoque = {
-    'nome': ['lol', 'dota', 'cs'],
-    'quantidade': [1, 3, 6],
-    'tipo': ['jogo', 'jogo', 'jogo']
+    'nome': [],
+    'quantidade': []
 }
 
 
+
+for chave in contagem:
+    estoque['nome'].append(chave)
+    estoque['quantidade'].append(contagem[chave])
+ 
+
+##Estoque-Manual 
 def forca_opcao(msg, lista):
     opcoes = '\n'.join(lista)
     escolha = input(f'{msg} \n{opcoes} \n-> ')
@@ -27,7 +48,7 @@ def forca_numero(msg):
 
 def adicionar():
     print('Estoque atual:')
-    print(estoque)
+    visualizar()
     for key in estoque.keys():
         if key == 'quantidade':
             novo_item = forca_numero(f'Novo(a) {key}: ')
@@ -40,25 +61,17 @@ def adicionar():
 
 def atualizar():
     print('Estoque atual:')
-    print(estoque)
+    visualizar()
     escolha = forca_opcao('Qual item deseja atualizar?', estoque['nome'])
     indices = atualiza_indices()
     indice = indices[escolha]
-    atributo = forca_opcao(f'Qual atributo do(a) {escolha} deseja mudar?', ['nome', 'quantidade', 'tipo'])
+    atributo = forca_opcao(f'Qual atributo do(a) {escolha} deseja mudar?', ['nome', 'quantidade'])
     if atributo == 'nome':
         novo_nome = input('Novo nome: ')
-        estoque[escolha][indice] = novo_nome
-        print(f'Nome atualizado para: {novo_nome}')
+        estoque[atributo][indice] = novo_nome
+        print(f'nome atualizado para: {novo_nome}')
     if atributo == 'quantidade':
-        nova_quantidade = input(f'Nova quantidade (+/-): ')
-        while not nova_quantidade.startswith('+' or '-') and not nova_quantidade[
-            -1].isnumeric() and not nova_quantidade >= estoque[escolha][indice]:
-            print('Valor invalido, por favor tente novamente.')
-            nova_quantidade = input(f'Nova quantidade (+/-): ')
-        if nova_quantidade.startswith('-'):
-            estoque[escolha][indice] -= nova_quantidade
-        else:
-            estoque[escolha][indice] += nova_quantidade
+        estoque[atributo][indice] = forca_numero(f'Nova quantidade: ')
 
 
 def atualiza_indices():
@@ -67,41 +80,38 @@ def atualiza_indices():
 
 def remover():
     print('Estoque atual:')
-    print(estoque)
+    visualizar()
     nome_remover = forca_opcao("Qual item você deseja remover?", estoque['nome'])
     indices = atualiza_indices()
     indice_remover = indices[nome_remover]
     for key in estoque.keys():
         estoque[key].pop(indice_remover)
     print('Estoque atualizado:')
-    print(estoque)
+    visualizar()
 
 def visualizar():
     print("\n=== Estoque Atual ===")
-    print(f"{'Nome':<15} {'Quantidade':<10} {'Tipo':<10}")
+    print(f"{'nome':<15} {'Quantidade':<10}")
     print("-" * 37)
     for i in range(len(estoque['nome'])):
         nome = estoque['nome'][i]
         quantidade = estoque['quantidade'][i]
-        tipo = estoque['tipo'][i]
-        print(f"{nome:<15} {quantidade:<10} {tipo:<10}")
+        print(f"{nome:<15} {quantidade:<10}")
     print("-" * 37)
 
+menu = {
+    'adicionar':adicionar,
+    'remover':remover,
+    'atualizar':atualizar,
+    'visualizar':visualizar
+}
 
 print('Sistema de estoque:')
 
 while True:
     escolha = forca_opcao('Qual operação deseja realizar?', ['adicionar', 'remover', 'atualizar', 'visualizar', 'sair'])
-    if escolha == 'adicionar':
-        adicionar()
-    elif escolha == 'remover':
-        remover()
-    elif escolha == 'atualizar':
-        atualizar()
-    elif escolha == 'visualizar':
-        visualizar()
-    elif escolha == 'sair':
+    if escolha == 'sair':
         print('Saindo do sistema...')
         break
-
-print(estoque)
+    else:
+        menu[escolha]()

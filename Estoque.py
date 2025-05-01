@@ -12,14 +12,14 @@ for item in data['predictions']:
     else:
         contagem[classe] = 1
 
-data_base = {
+estoque = {
     'itens': [],
     'quantidade': []
 }
 
 for chave in contagem:
-    data_base['itens'].append(chave)
-    data_base['quantidade'].append(contagem[chave])
+    estoque['itens'].append(chave)
+    estoque['quantidade'].append(contagem[chave])
 
-print(data_base)
+# print(estoque)
 
