@@ -69,3 +69,6 @@ Somos a StoCam, uma solução tecnológica voltada à gestão automatizada de es
 }
 ```
 <img src="Diagrama.png">
+
+## Vídeo do projeto funcionando
+https://youtu.be/_I0peYpfJTs
