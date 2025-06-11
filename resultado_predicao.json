@@ -8,7 +8,7 @@
       "confidence": 0.9970365166664124,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "2670ba2b-dfb8-4c68-8c0b-bb9a32c70f53",
+      "detection_id": "1abd5e5c-23a2-47b7-821a-c8875446d793",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -20,7 +20,7 @@
       "confidence": 0.9931575655937195,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "49b8c52e-236a-4227-ba7c-807487114c6e",
+      "detection_id": "6bf1d84c-b234-4129-a988-edaa638e353e",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -32,7 +32,7 @@
       "confidence": 0.9925979375839233,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "d018b95c-7718-421b-97b7-5ff1183710c6",
+      "detection_id": "025da714-10a5-4006-970c-85dc7e9634a8",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -44,7 +44,7 @@
       "confidence": 0.9855791330337524,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "647930c4-3da5-4d76-9a87-c9434c6f3f94",
+      "detection_id": "b3ffc445-8941-4dbb-90c2-73a600d97a8b",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -56,7 +56,7 @@
       "confidence": 0.9825071096420288,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "cdd217ef-da6d-44f2-a819-eb2690a9a87d",
+      "detection_id": "b87a6468-3a0c-4ccc-8331-b09aeed11ce9",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -68,7 +68,7 @@
       "confidence": 0.9722944498062134,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "761c23e5-07c6-4f8a-ad04-f7e259af5979",
+      "detection_id": "d7df8a7a-d6f7-4e52-8c63-c78afd0490ae",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -80,7 +80,7 @@
       "confidence": 0.9648016095161438,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "f6a52752-5f24-42df-a41b-3f0ec6ed5667",
+      "detection_id": "1548dbd7-5ade-4390-be46-682b73159567",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -92,7 +92,7 @@
       "confidence": 0.9631952047348022,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "d8b4ad67-1595-489d-b6c5-b2f2d0038b03",
+      "detection_id": "1115450d-d260-457e-ad47-13fd333b980f",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -104,7 +104,7 @@
       "confidence": 0.9562420845031738,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "d8bfe279-b5df-45d0-b63e-5ca260a21a0f",
+      "detection_id": "356c69b9-51f8-48fc-a1e7-f07f6b5ee221",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -116,7 +116,7 @@
       "confidence": 0.9498330354690552,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "762944d3-7b7a-4303-9ff4-96aae8ddd7d5",
+      "detection_id": "bb4444da-465b-433c-97c0-081a2c78e611",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -128,7 +128,7 @@
       "confidence": 0.9206374287605286,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "c82fe6e2-c66c-4161-a0e1-ae822d5cf30b",
+      "detection_id": "288300da-8bc8-4b07-8120-20c6b7e83ee4",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -140,7 +140,7 @@
       "confidence": 0.917531430721283,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "0d695056-3f20-41ea-81ca-3f20d4e1781b",
+      "detection_id": "d51f2280-4877-47d3-93ed-8dc40499a1e7",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -152,7 +152,7 @@
       "confidence": 0.8876633048057556,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "9a1b3852-445e-42b2-8428-a83b95b19ec4",
+      "detection_id": "65e87163-9fce-4d94-9d59-8b8129c5af38",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -164,7 +164,7 @@
       "confidence": 0.8735051155090332,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "aead00e1-7ece-4c38-99d3-9f1060ae353d",
+      "detection_id": "b37a848e-92ea-4332-ab99-e1fdc6718dd4",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -176,7 +176,7 @@
       "confidence": 0.8588612675666809,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "bcc046a1-e95b-446f-88f9-e45da0de103f",
+      "detection_id": "1ef08e15-31ce-45fb-baae-befa9dcdc9ce",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -188,7 +188,7 @@
       "confidence": 0.8475545644760132,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "99f733f2-5f99-412b-8677-8836179965fa",
+      "detection_id": "70d7b7f6-7f54-412b-902d-5cabd6f34aea",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -200,7 +200,7 @@
       "confidence": 0.8449422717094421,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "d9e6ecdc-7147-474c-9fd0-d5d04cb7bfda",
+      "detection_id": "7d07e470-0c48-4962-aced-b1595ca6dcfc",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -212,7 +212,7 @@
       "confidence": 0.8338207006454468,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "a81bf54a-7e30-4580-a480-eb24e2f03a35",
+      "detection_id": "05945161-0776-4e35-bd46-24b5fa95b25f",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -224,7 +224,7 @@
       "confidence": 0.8134046196937561,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "87198489-d0df-4937-bb7c-b519ef51f4bf",
+      "detection_id": "29ef0901-acc4-4a99-b016-47985cd69b8d",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -236,7 +236,7 @@
       "confidence": 0.7928269505500793,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "0e5925c1-f516-47a1-a8e7-2deb5a1ad6e8",
+      "detection_id": "88cea2c2-6a5c-49f7-a1af-6f637c3d7cc4",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -248,7 +248,7 @@
       "confidence": 0.7884699702262878,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "3615dcb8-ffb7-43d8-ae84-103ee709ce39",
+      "detection_id": "e36800e5-f56f-42ee-95ff-78ad11057342",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -260,7 +260,7 @@
       "confidence": 0.7813383340835571,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "9da5c05c-5a87-4c56-b18d-572ebc820bbf",
+      "detection_id": "7d5b8099-557c-4c82-8695-6305335695d9",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -272,7 +272,7 @@
       "confidence": 0.7788300514221191,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "c527aa61-2d0e-4060-9cfd-51bce7cd8e50",
+      "detection_id": "6f4559a5-734a-48fd-a8f6-d455ac8f4083",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -284,7 +284,7 @@
       "confidence": 0.7637839317321777,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "74f02839-9109-4cd4-8321-7634ac08df6b",
+      "detection_id": "24a395f4-7182-4ed4-bf97-16a21884190a",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -296,7 +296,7 @@
       "confidence": 0.7099102139472961,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "4e4cba3e-009b-405a-9349-200c0a204424",
+      "detection_id": "9b3e476b-95b2-411a-b4ea-a0812d79cd00",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -308,7 +308,7 @@
       "confidence": 0.7037875652313232,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "f8fc90dd-bd82-4ebc-ac58-ed9c7b25f798",
+      "detection_id": "70a07dbc-f407-4090-879b-5cbec6eaef7d",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -320,7 +320,7 @@
       "confidence": 0.6893975734710693,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "37eb7d3d-75eb-4e27-8f3f-0d521cc9df55",
+      "detection_id": "89da1e4a-8d11-4869-8c57-0dfc1e620f31",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -332,7 +332,7 @@
       "confidence": 0.6815438270568848,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "bbfd04dc-b35d-4c89-afe5-d7a8e3483f0f",
+      "detection_id": "6a6996ec-8fab-4976-9bc2-744aa052565d",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -344,7 +344,7 @@
       "confidence": 0.631197452545166,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "b91deee0-c5db-4baf-bb0b-7fae4403cb93",
+      "detection_id": "18fe6284-2a47-45c1-8b98-d3f1fb71b8c0",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -356,7 +356,7 @@
       "confidence": 0.5948989391326904,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "1c5d426b-4ea1-4506-840d-e3f069998d9b",
+      "detection_id": "0063569e-ba54-49ca-bfa3-8ae6f883e73a",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -368,7 +368,7 @@
       "confidence": 0.59034264087677,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "162818f2-1e80-41d2-92cf-2956187b3d72",
+      "detection_id": "2c714c80-0f97-4572-a402-3f2e45f88d45",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -380,7 +380,7 @@
       "confidence": 0.5896459817886353,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "3f14c6d8-3539-4d8f-801d-229e36d7eb0f",
+      "detection_id": "1d6d491f-1f21-426e-9392-b27937fcc149",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -392,7 +392,7 @@
       "confidence": 0.5261165499687195,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "060cedce-e9a6-4430-8015-804e758ba3de",
+      "detection_id": "ae8c4bf3-db6f-4fb6-a398-5277f58208cb",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -404,7 +404,7 @@
       "confidence": 0.5255779027938843,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "663e4be0-c8c8-4b70-933d-cd9fd440fba7",
+      "detection_id": "93291aa1-7182-4477-ab6b-593921fe23b3",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -416,7 +416,7 @@
       "confidence": 0.5222266912460327,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "0b17b238-7b44-4bb6-8eca-a5fceb7f4867",
+      "detection_id": "7d51e920-1c07-488f-abac-8adb2beecf64",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -428,7 +428,7 @@
       "confidence": 0.4806022346019745,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "42ee2a8c-4937-4a83-a8a8-0e32742949b1",
+      "detection_id": "cb59092b-d596-4743-80b6-c19cac581fe2",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -440,7 +440,7 @@
       "confidence": 0.4717465043067932,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "3471ab1c-e0e5-4440-8eda-dab687a4cfa0",
+      "detection_id": "aff51407-4f78-4a63-ab94-54eb0bae9ddb",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -452,7 +452,7 @@
       "confidence": 0.471004843711853,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "952d9ab0-ac9f-469b-804c-136132f63f70",
+      "detection_id": "90d8fe4d-40fe-44cc-9d7e-27b0380695d2",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -464,7 +464,7 @@
       "confidence": 0.46827054023742676,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "d19f5083-0bbd-46a8-b813-1a5665e3a716",
+      "detection_id": "c965ebde-35d5-48a4-88bc-7451ba6c9f30",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -476,7 +476,7 @@
       "confidence": 0.431284636259079,
       "class": "ampola 2",
       "class_id": 1,
-      "detection_id": "447d2c64-0a27-48b6-90d9-33a9b8900816",
+      "detection_id": "f7785e4c-2a18-4eca-9b42-6fb9ade9169a",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     },
@@ -488,7 +488,7 @@
       "confidence": 0.41386663913726807,
       "class": "ampola",
       "class_id": 0,
-      "detection_id": "4a1703cf-b43c-4f9d-9585-f54621985a7f",
+      "detection_id": "2d26830e-629b-4e35-a659-7a9dcaca2868",
       "image_path": "gaveta_2.jpg",
       "prediction_type": "ObjectDetectionModel"
     }
