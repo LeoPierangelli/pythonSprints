@@ -37,11 +37,13 @@ Este repositório contém a API que realiza a leitura de imagens de estoque, pro
 ## 🎯 Exemplo de Requisição
 
 🔸 Endpoint
+
   POST /dashboard
 
 🔸 Body (form-data)
-  Key Type
-  imagem  File
+
+  Key: imagem
+  Type: File
 
 🔸 Resposta
 
@@ -77,11 +79,7 @@ Este repositório contém a API que realiza a leitura de imagens de estoque, pro
 
   - pip install -r requirements.txt
 
-
-## 🚀 Executar a API
-
-  cd Interface
-  python api.py
+  Execute o app.py
 
   A API estará disponível em:
 
