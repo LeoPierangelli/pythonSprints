@@ -15,20 +15,14 @@ def dashboard():
 
     #pega a imagem da requisição
     imagem = request.files['imagem']
-
     #salvando a imagem
     imagem.save(f'{imagem.filename}')
-
     #request na api do roboflow. Devolve um json feio
     resultado_roboflow = requisitar_predicao(f'{imagem.filename}')
-    os.remove(f'{imagem.filename}')
-
     #passa o json feio pro adapter tratar. Devolve numa lista de dicionarios
     lista_itens = adapter_roboflow(resultado_roboflow)
-
     #cria o dashboard
     dashboard_obj = criar_dashboard(lista_itens)
-
     #retorna o dashboard como json
     return jsonify(dashboard_obj.conteudo)
 
