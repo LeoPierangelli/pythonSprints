@@ -14,7 +14,7 @@ def dashboard():
     
     #pega a imagem da requisição
     data = request.get_json()
-    if not data or "url" not in data:
+    if not data or "image_url" not in data:
         return jsonify({"error": "JSON inválido ou 'url' não enviado"}), 400
 
     image_url = data['image_url']

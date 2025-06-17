@@ -5,9 +5,8 @@ def adapter_roboflow(json_roboflow):
 
     for item in predictions:
         nome = item['class']
-        gaveta = item['image_path'].split('.')[0]
 
-        chave = (nome, gaveta) #Conta +1 se o par gaveta/nome já tiver aparecido no json da predição
+        chave = (nome) #Conta +1 se o nome já tiver aparecido no json da predição
 
         #Parte necessária para conseguirmos a quantidade
         if chave in contagem:
@@ -20,10 +19,10 @@ def adapter_roboflow(json_roboflow):
         {
          'nome': nome, 
          'quantidade': quantidade, 
-         'gaveta': gaveta
+         'gaveta': "gaveta 1"
          }
          
-        for (nome, gaveta), quantidade in contagem.items()
+        for (nome), quantidade in contagem.items()
     ]
 
     return lista_itens
