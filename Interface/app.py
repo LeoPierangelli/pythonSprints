@@ -8,17 +8,18 @@ app = Flask(__name__)
 
 @app.route('/dashboard', methods=['POST'])
 def dashboard():
-    print("request.files keys:", request.files.keys())
-    #verificando se key imagem tá no body da requisição
-    if 'imagem' not in request.files:
-        return jsonify({"error": "Imagem não enviada"}), 400
-
+    # Verifica se o content-type é application/json
+    if not request.is_json:
+        return jsonify({"error": "Content-Type deve ser application/json"}), 415 
+    
     #pega a imagem da requisição
-    imagem = request.files['imagem']
-    #salvando a imagem
-    imagem.save(f'{imagem.filename}')
+    data = request.get_json()
+    if not data or "url" not in data:
+        return jsonify({"error": "JSON inválido ou 'url' não enviado"}), 400
+
+    image_url = data['image_url']
     #request na api do roboflow. Devolve um json feio
-    resultado_roboflow = requisitar_predicao(f'{imagem.filename}')
+    resultado_roboflow = requisitar_predicao(image_url)
     #passa o json feio pro adapter tratar. Devolve numa lista de dicionarios
     lista_itens = adapter_roboflow(resultado_roboflow)
     #cria o dashboard
