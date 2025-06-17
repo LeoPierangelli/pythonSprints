@@ -92,3 +92,6 @@ Este repositório contém a API que realiza a leitura de imagens de estoque, pro
     Pedro Arão Baquini — RM559580
     Leandro Kamada Pesce Dimov — RM560381
     Leonardo de Souza Pierangelli — RM560501
+
+## Video do funcionamento do projeto
+    https://youtu.be/OJZuR2Y40t8
