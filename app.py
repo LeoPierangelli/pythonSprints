@@ -7,8 +7,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-app = Flask(__name__)
-
 @app.route('/dashboard', methods=['POST'])
 def dashboard():
     # Verifica se o content-type é application/json
