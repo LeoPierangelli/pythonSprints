@@ -2,7 +2,10 @@ from flask import Flask, request, jsonify
 from Core.Dashboard_UseCase import criar_dashboard
 from Adapters.Roboflow_Adapter import adapter_roboflow
 from Adapters.Roboflow_Client import requisitar_predicao
-import os
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
 
 app = Flask(__name__)
 
